@@ -1,0 +1,1 @@
+Welcome to my Etch-A-Sketch project! This is a project completed through the Odin Project that serves as a test of HTML, CSS, and Javascript skills.
