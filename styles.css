@@ -1,0 +1,22 @@
+#gridContainer {
+        display:flex;
+        flex-wrap: wrap;
+        margin:auto;
+        width: 925px;
+        height: 925px;
+        border: 3px solid black;
+
+
+}
+
+.panel {
+        flex: 1 0 auto;
+        background-color: rgb(208, 209, 208);
+        border: 1px solid grey;
+        width: 200px;
+        height: auto;
+ 
+
+
+
+}
