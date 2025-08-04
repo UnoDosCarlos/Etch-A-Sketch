@@ -10,3 +10,32 @@ function createGrid(numDivs) {
 };
 
 createGrid(256);
+
+const panels = document.querySelectorAll('.panel');
+
+
+for(const panel of panels) {
+
+
+panel.addEventListener('mouseover', () => {
+        panel.style.backgroundColor = 'lightblue';
+
+
+});
+
+panel.addEventListener('mouseout', () => {
+        panel.style.backgroundColor = 'lightblue';
+        
+});
+
+};
+
+const gridAdjusterbtn = document.querySelector('#gridAdjusterbtn');
+
+gridAdjusterbtn.addEventListener('click', () => {
+        let userInput = prompt("Enter a new grid size:");
+
+
+
+
+});

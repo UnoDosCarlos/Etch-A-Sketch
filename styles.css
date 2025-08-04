@@ -1,11 +1,36 @@
+.button-container {
+        display: flex;
+        justify-content: center;
+        
+
+
+}
+
+.container {
+
+        display:flex;
+        justify-content: center;
+        margin-top: 16px;
+        min-width: 700px;
+        min-height: 700px;
+
+}
+
+button {
+
+        width:150px;
+        background-color: rgb(131, 187, 187);
+        
+
+}
+
 #gridContainer {
         display:flex;
         flex-wrap: wrap;
-        margin:auto;
         width: 700px;
         height: 700px;
         border: 3px solid black;
-
+        
 
 }
 
