@@ -1,20 +1,30 @@
+* {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+
+
+}
+
+
+
+body {
+        
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+}
+
 .button-container {
+        margin-top: 16px;
         display: flex;
         justify-content: center;
-        
-
 
 }
 
-.container {
-
-        display:flex;
-        justify-content: center;
-        margin-top: 16px;
-        min-width: 700px;
-        min-height: 700px;
-
-}
 
 button {
 
@@ -27,20 +37,18 @@ button {
 #gridContainer {
         display:flex;
         flex-wrap: wrap;
-        width: 700px;
-        height: 700px;
+        flex: 0 0 auto;
+        margin-top: 16px;
+        width: 800px;
+        height: 800px;
         border: 3px solid black;
-        
 
 }
 
 .panel {
-        flex: 1 0 auto;
+        display:flex;
+        flex: 0 0 calc(100% / 16);
         background-color: rgb(208, 209, 208);
         border: 1px solid grey;
-        width: 40px;
-        height: auto;
-
-
 
 }
