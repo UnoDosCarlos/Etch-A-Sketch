@@ -9,4 +9,4 @@ function createGrid(numDivs) {
     }
 };
 
-createGrid(16);
+createGrid(256);

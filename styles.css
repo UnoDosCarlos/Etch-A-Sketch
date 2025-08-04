@@ -2,8 +2,8 @@
         display:flex;
         flex-wrap: wrap;
         margin:auto;
-        width: 925px;
-        height: 925px;
+        width: 700px;
+        height: 700px;
         border: 3px solid black;
 
 
@@ -13,9 +13,8 @@
         flex: 1 0 auto;
         background-color: rgb(208, 209, 208);
         border: 1px solid grey;
-        width: 200px;
+        width: 40px;
         height: auto;
- 
 
 
 
