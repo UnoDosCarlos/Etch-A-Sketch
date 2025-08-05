@@ -22,7 +22,7 @@ body {
         margin-top: 16px;
         display: flex;
         justify-content: center;
-
+        gap: 16px;
 }
 
 
@@ -45,10 +45,10 @@ button {
 
 }
 
-.panel {
+.panels {
         display:flex;
         flex: 0 0 calc(100% / 16);
-        background-color: rgb(208, 209, 208);
+        background-color: lightgray;
         border: 1px solid grey;
 
 }
